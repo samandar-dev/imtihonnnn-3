@@ -1,0 +1,137 @@
+.sub__inner {
+  max-width: 1450px;
+  margin: 0 auto;
+  background: $bg-color-1;
+}
+
+.sub__list {
+  @include list-style();
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.sub__item {
+  padding: 0 15px;
+}
+
+.sub__item-box {
+  width: 100%;
+  height: 230px;
+
+  justify-content: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+
+  padding: 40px 80px 47px 25px;
+}
+
+.sub__item-icon {
+  width: 32.803%;
+  display: flex;
+  font-size: 64px;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #e2e2e2;
+
+  color: $color-10;
+}
+
+.sub__item-desc {
+  width: 67.197%;
+  padding: 0 15px 0 25px;
+}
+
+.sub__item-tit {
+  font-family: $font-1;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.sub__item-tit-two {
+  font-family: $font-1;
+  font-size: 12px;
+  font-weight: 600;
+  color: $color-3;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.sub__item-tel {
+  font-family: $font-1;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+
+  color: $color-10;
+  margin-bottom: 15px;
+
+  &:hover {
+    color: $color-10;
+  }
+}
+
+.sub__item-link {
+  font-family: $font-1;
+  font-size: 14px;
+  color: $color-9;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-9;
+  }
+}
+
+.sub__item-text {
+  font-family: $font-1;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: $color-2;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.sub__item-form {
+  position: relative;
+  width: 100%;
+  height: 38px;
+
+  border: 1px solid #e2e2e2;
+  padding: 0 45px 0 15px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.sub__item-form-inpu {
+  font-family: $font-1;
+  font-size: 15px;
+
+  border: none;
+  outline: none;
+  color: $color-4;
+  background: transparent;
+
+  &::placeholder {
+    font-size: 15px;
+    color: $color-4;
+  }
+}
+
+.sub__item-form-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+
+  border: none;
+  background: transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $color-10;
+  }
+}

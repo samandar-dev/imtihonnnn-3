@@ -1,0 +1,152 @@
+.cus__inner {
+  max-width: 1450px;
+  margin: 0 auto;
+  background: $bg-color-1;
+}
+
+.cus__list {
+  @include list-style();
+}
+
+.cus__item:nth-child(1) {
+  padding-bottom: 40px;
+}
+
+.cus__item:nth-child(2) {
+  padding-bottom: 85px;
+}
+
+.cus__item:nth-child(1) .cus__item-box {
+  padding-left: 0;
+}
+
+.cus__item:nth-child(2) .cus__item-box {
+  padding-right: 0;
+}
+
+.cus__item-box {
+  border-radius: 10px;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.cus__item-desc {
+  position: relative;
+  padding: 0 95px;
+  padding-bottom: 40px;
+}
+
+.cus__desc-title {
+  max-width: 370px;
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  font-family: $font-1;
+  letter-spacing: -0.75px;
+
+  color: $color-9;
+  margin-bottom: 20px;
+}
+
+.cus__desc-text {
+  font-family: $font-1;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-2;
+}
+
+.cus__desc-tit {
+  font-family: $font-1;
+  font-weight: 400;
+  font-size: 15px;
+
+  color: $color-4;
+  margin: 25px 0 40px 0;
+}
+
+.cus__item-icon-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cus__desc-btns-list {
+  @include list-style();
+  display: flex;
+  align-items: center;
+}
+
+.cus__desc-btn-item {
+  margin-right: 14px;
+}
+
+.cus__desc-btn-btn {
+  width: 8px;
+  height: 8px;
+  background: $bg-color-14;
+  border-radius: $bd-radius;
+  border: none;
+}
+
+.cus__desc-btn-item:nth-child(1) .cus__desc-btn-btn {
+  background: $bg-color-9;
+}
+
+@media screen and (max-width: 1200px) {
+  .cus__item-desc {
+    position: relative;
+    padding: 0 15px;
+    padding-bottom: 40px;
+  }
+
+  .cus__item-desc:nth-child(2) {
+    position: relative;
+    padding-left: 60px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cus__item {
+    flex-direction: column;
+  }
+
+  .cus__item:nth-child(2) {
+    flex-direction: column !important;
+  }
+
+  .cus__item-desc {
+    position: relative;
+    padding: 0 15px;
+    padding-bottom: 40px;
+  }
+
+  .cus__item-desc:nth-child(2) {
+    position: relative;
+    padding-left: 60px;
+    padding-bottom: 40px;
+  }
+
+  .cus__item-img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 30px;
+  }
+
+  .cus__item:nth-child(1) .cus__item-desc {
+    padding-left: 5px;
+  }
+
+  .cus__item-desc:nth-child(2) {
+    padding: 0;
+    padding-left: 60px;
+  }
+
+  .cus__item:nth-child(1) .cus__item-box {
+    padding-right: 0;
+  }
+  .cus__item:nth-child(2) .cus__item-box {
+    padding-left: 0;
+  }
+}

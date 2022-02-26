@@ -1,0 +1,121 @@
+.btns-box__responsiv {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: auto;
+  background: $bg-color-1;
+  display: none;
+  overflow: hidden;
+}
+
+.btn-res__list {
+  @include list-style();
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0px 15px 15px rgb(36, 35, 35);
+}
+
+.btn-res__item {
+  position: relative;
+  text-align: center;
+  max-width: 25%;
+  height: 60px;
+
+  padding-top: 5px;
+  border-top: 1px solid #ebebeb;
+
+  & .bx {
+    font-size: 27px;
+    line-height: 35px;
+  }
+}
+
+.btn-res__item:nth-child(2) {
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+
+.btn-res__item:nth-child(3) {
+  border-right: 1px solid #ebebeb;
+}
+
+.btn-res__btn {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -7px;
+
+  font-family: $font-1;
+  font-size: 12px;
+  color: $color-9;
+
+  border: none;
+
+  display: flex;
+  background: transparent;
+  align-items: center;
+
+  & .bx {
+    color: $color-9 !important;
+  }
+}
+
+.btn-res__item .bx-search {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  height: 10px !important;
+  font-size: 27px;
+  line-height: 27px;
+  transform: translate(-50%, 0);
+}
+
+.btn-res__item:nth-child(3) .btn-res__btn {
+  background: transparent;
+  height: 15px;
+  width: 60px;
+}
+
+.btn-res__item:nth-child(4) .btn-res__btn {
+  margin-top: 5px;
+}
+
+.btn-res-btn-zero {
+  top: 5px !important;
+  left: 50%;
+}
+
+@media screen and (max-width: 990px) {
+  .btns-box__responsiv {
+    display: block;
+  }
+
+  .head-menu__form-box {
+    position: fixed;
+    top: -500px;
+    left: 0;
+    width: 100% !important;
+    height: 100px;
+    z-index: 50;
+    background: $bg-color-1;
+    transition: all 0.4s ease;
+  }
+
+  .head-form__form {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    max-width: 100% !important;
+  }
+
+  .head-form-open-btn {
+    top: 0;
+  }
+
+  .head-form-remov-btn {
+    top: -200px;
+  }
+}

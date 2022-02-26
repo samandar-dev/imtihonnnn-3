@@ -1,0 +1,60 @@
+.hero__desc-list {
+  @include list-style();
+  padding: 0 10px;
+  border-bottom: 1px solid $color-15;
+}
+
+.hero__desc-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  padding: 60px 15px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 0;
+    height: 3px;
+    background: $bg-color-9;
+    transition: all 0.4s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.hero__desc-img {
+  width: 62px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.hero__desc-item-box {
+  position: relative;
+  max-width: 190px;
+  padding-left: 15px;
+}
+
+.he-des__title {
+  font-family: $font-1;
+  line-height: 1.1;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: $color-9;
+  margin-bottom: 10px;
+}
+
+.he-des__text {
+  font-family: $font-1;
+  line-height: 18px;
+  font-size: 12px;
+
+  color: $color-2;
+  margin-bottom: 0;
+}

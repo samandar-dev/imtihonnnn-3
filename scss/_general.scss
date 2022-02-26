@@ -14,6 +14,18 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+}
 
+.home-body {
+  background-image: url("../images/body-img-top.jpg"), url("../images/body-img-bottom.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center, bottom center;
+  background-color: #fbf4ea;
+}
+
+.about-body {
+  background: $bg-color-1;
   overflow-x: hidden;
 }

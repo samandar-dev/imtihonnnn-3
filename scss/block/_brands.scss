@@ -1,0 +1,29 @@
+.bra__inner {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  background: $bg-color-1;
+}
+
+.bra__list {
+  @include list-style();
+  overflow: hidden;
+  padding-top: 60px !important;
+  border-top: 1px solid #e5e5e5;
+}
+
+.bra__item {
+  width: auto;
+  text-align: center;
+  transition: all 0.4s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.bra__item-box {
+  width: 190px;
+  height: 100px;
+}

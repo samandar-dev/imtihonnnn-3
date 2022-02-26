@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Freshio</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="about-body">
+
+  <section class="header-hero">
+
+    <!-- HEADER PART  -->
+
+    <header class="site-header" id="site-header">
+      <div class="site-header__inner sit-head">
+        <div class="sit-head__menus">
+          <div class="head-part__menus head-menu row align-items-center justify-content-between">
+            <button class="head-part__menu-btn" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <i class='bx bx-menu'></i>
+            </button>
+
+            <div class="head-menu__logo-box col-2">
+              <a class="head-menu__logo-link text-decoration-none d-inline-block" href="index.html">
+                <img class="head-menu__logo"
+                  src="https://demo73leotheme.b-cdn.net/prestashop/at_freshio/img/freshio-logo-1603358296.jpg"
+                  alt="logo">
+              </a>
+            </div>
+
+            <div class="head-menu__form-box head-form col-5" id="head-form">
+              <form class="head-form__form" action="#">
+                <i class='bx bx-search'></i>
+                <input class="head-form__input" type="text" name="search" id="searchh" placeholder="Enter Keyword...">
+                <button class="head-form__btn">Search</button>
+              </form>
+            </div>
+
+            <div class="head__icons-box head-icons col-5">
+              <div class="site-head__tel-box w-auto d-flex">
+                <div class="site-head-tel-icon">
+                  <i class='bx bx-headphone'></i>
+                </div>
+
+                <div class="site-head__tel-text">
+                  <p class="site-head__tel-tit">CALL US 24/7</p>
+                  <p class="site-head__tel-num">(1800)-88-66-991</p>
+                </div>
+              </div>
+              <ul class="head-icons__list site-head-icons__list d-flex align-items-center">
+                <li class="head-icons__item">
+                  <button class="head-icons__item-btn" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class='bx bx-user'></i>
+                  </button>
+
+                  <div class="head-user__modal-box">
+                    <div class="offcanvas offcanvas-end user-modal" tabindex="-1" id="offcanvasRight"
+                      aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header">
+                        <a class="head-menu__logo-link text-decoration-none d-inline-block" href="index.html">
+                          <img class="head-menu__logo"
+                            src="https://demo73leotheme.b-cdn.net/prestashop/at_freshio/img/freshio-logo-1603358296.jpg"
+                            alt="logo">
+                        </a>
+
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                          aria-label="Close">
+                        </button>
+                      </div>
+                      <div class="offcanvas-body off">
+                        <a class="off__text" href="#">Existing Account Login</a>
+
+                        <form class="off__form" action="#">
+                          <input class="off__form-input" type="email" name="email" id="email"
+                            placeholder="Email Address" required>
+                          <input class="off__form-input" type="password" name="password" id="password"
+                            placeholder="Password" required>
+                          <div class="off__form-btns d-flex align-items-center justify-content-between">
+                            <input type="checkbox" name="password" id="password" placeholder="Remember Me" required>
+                            <label class="off__form-chec">
+                              <span class="off__form-passbtn w-auto text-start">Remember Me</span>
+                            </label>
+
+                            <p class="off__form-passbtn">Forgot Password ?</p>
+                          </div>
+
+                          <button class="off__form-btn">Login</button>
+                        </form>
+
+
+                        <div class="off__icons-box">
+                          <a class="off__text mb-2" href="#">Connect with Social Networks</a>
+                          <ul class="off__icon-list d-flex align-items-center">
+                            <li class="off__icon-item">
+                              <a class="off__icon-link" href="#">
+                                <i class='bx bxl-facebook'></i>
+                              </a>
+                            </li>
+                            <li class="off__icon-item">
+                              <a class="off__icon-link" href="#">
+                                <i class='bx bxl-google'></i>
+                              </a>
+                            </li>
+                            <li class="off__icon-item">
+                              <a class="off__icon-link" href="#">
+                                <i class='bx bxl-twitter'></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <a class="off__text" href="#">New Account Register</a>
+
+                        <form class="off__form" action="#">
+                          <input class="off__form-input" type="email" name="email" id="email"
+                            placeholder="Email Address" required>
+                          <input class="off__form-input" type="password" name="password" id="password"
+                            placeholder="Password" required>
+                          <input class="off__form-input" type="email" name="email" id="email"
+                            placeholder="Email Address" required>
+                          <input class="off__form-input" type="password" name="password" id="password"
+                            placeholder="Password" required>
+                          <div class="off__form-btns d-flex justify-content-between">
+                            <label class="off__form-chec">
+                              <input type="checkbox" name="password" id="password" placeholder="Remember Me" required>
+                              <span class="off__form-passbtn w-auto">
+                                I agree to the terms.</span>
+                            </label>
+                          </div>
+
+                          <button class="off__form-btn">Creat an Account</button>
+                        </form>
+
+                        <div class="off__langu-links-box d-flex">
+                          <div class="off__langu w-50">
+                            <h5 class="off__langu-title">Language:</h5>
+
+                            <ul class="off__langu-list row align-items-center">
+                              <li class="off__langu-item">
+                                <button class="off__langu-btn">
+                                  <img src="images/flags/1.jpg" alt="img">
+                                </button>
+                              </li>
+                              <li class="off__langu-item">
+                                <button class="off__langu-btn">
+                                  <img src="images/flags/2.jpg" alt="img">
+                                </button>
+                              </li>
+                              <li class="off__langu-item">
+                                <button class="off__langu-btn">
+                                  <img src="images/flags/3.jpg" alt="img">
+                                </button>
+                              </li>
+                              <li class="off__langu-item">
+                                <button class="off__langu-btn">
+                                  <img src="images/flags/4.jpg" alt="img">
+                                </button>
+                              </li>
+                              <li class="off__langu-item">
+                                <button class="off__langu-btn">
+                                  <img src="images/flags/5.jpg" alt="img">
+                                </button>
+                              </li>
+                              <li class="off__langu-item">
+                                <button class="off__langu-btn">
+                                  <img src="images/flags/6.jpg" alt="img">
+                                </button>
+                              </li>
+                            </ul>
+
+                            <h5 class="off__langu-title">Currency:</h5>
+                            <div class="off__langu-mony">
+                              <button class="off__langu-mony-btn">EUR</button>
+                              <button class="off__langu-mony-btn">USD</button>
+                            </div>
+                          </div>
+
+                          <div class="off__langu-desc w-50">
+                            <ul class="off__langu-desc-list">
+                              <li class="off__langu-desc-item">
+                                <a class="off__langu-desc-link" href="#">
+                                  <i class='bx bx-exit'></i>Sign in
+                                </a>
+                              </li>
+                              <li class="off__langu-desc-item">
+                                <a class="off__langu-desc-link" href="#">
+                                  <i class='bx bx-user'></i>My account
+                                </a>
+                              </li>
+                              <li class="off__langu-desc-item">
+                                <a class="off__langu-desc-link" href="#">
+                                  <i class='bx bx-heart'></i>Wishlist (0)
+                                </a>
+                              </li>
+                              <li class="off__langu-desc-item">
+                                <a class="off__langu-desc-link" href="#">
+                                  <i class='bx bxs-copy'></i>Compare (1)
+                                </a>
+                              </li>
+                              <li class="off__langu-desc-item">
+                                <a class="off__langu-desc-link" href="#">
+                                  <i class='bx bx-checkbox-checked'></i>Checkout
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="head-icons__item">
+                  <button class="head-icons__item-btn">
+                    <i class='bx bx-heart'></i>
+                    <span class="head-icons-item-btn-zero">0</span>
+                  </button>
+                </li>
+
+                <li class="head-icons__item">
+                  <button class="head-icons__item-btn">
+                    <i class='bx bx-shopping-bag'></i>
+                    <span class="head-icons-item-btn-zero">0</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="site-head__navbar-box">
+            <div class="container">
+              <div class="head__navbar-box head-nbar d-flex align-items-center">
+
+                <div class="head-nbar__drop head-drop">
+                  <button class="head-drop__btn site-head__drop-btn d-flex align-items-center" id="shop-by-btn">
+                    <i class='bx bx-menu'></i>
+                    Shop by Department
+                  </button>
+
+                  <div class="head-drop__btn-drop head-btn-dp" id="shop-by-box">
+                    <ul class="head-btn-dp__list">
+                      <li class="head-btn-dp__item">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxl-apple'></i>Fruits & Vegetables
+                        </a>
+                      </li>
+                      <li class="head-btn-dp__item d-flex align-items-center justify-content-between">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxs-pizza'></i>Supplyments
+                        </a>
+                        <i class='bx bx-chevron-right'></i>
+
+                        <ul class="head-btn-dp__link-list">
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Vegetables</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fresh Meat</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fruit & Nut Gifts</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fresh Berries</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="head-btn-dp__item d-flex align-items-center justify-content-between">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxl-apple'></i>Dairy Bread & Eggs
+                        </a>
+                        <i class='bx bx-chevron-right'></i>
+
+                        <ul class="head-btn-dp__link-list">
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Vegetables</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fresh Meat</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fruit & Nut Gifts</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fresh Berries</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="head-btn-dp__item">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxs-pizza'></i>Package Foods
+                        </a>
+                      </li>
+                      <li class="head-btn-dp__item d-flex align-items-center justify-content-between">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxs-pizza'></i>Beauty & Care
+                        </a>
+                        <i class='bx bx-chevron-right'></i>
+
+                        <ul class="head-btn-dp__link-list">
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Vegetables</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fresh Meat</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fruit & Nut Gifts</a>
+                          </li>
+                          <li class="head-btn-dp__link-item">
+                            <a class="head-btn-dp__link-link" href="#">Fresh Berries</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="head-btn-dp__item">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bx-leaf'></i>Health & Wellness
+                        </a>
+                      </li>
+                      <li class="head-btn-dp__item">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxs-badge-dollar'></i>Baby & Infants
+                        </a>
+                      </li>
+                      <li class="head-btn-dp__item">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxs-pizza'></i>Home Care
+                        </a>
+                      </li>
+                      <li class="head-btn-dp__item">
+                        <a class="head-btn-dp__link" href="#">
+                          <i class='bx bxs-badge-dollar'></i>Hot Offers
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="head__nav-box head-nav">
+                  <ul class="head-nav__list d-flex align-items-center">
+                    <li class="head-nav__item">
+                      <a class="head-nav__link" href="#">Home
+                        <i class='bx bx-chevron-down'></i>
+                      </a>
+
+                      <ul class="head-nav__item-drop">
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 1</a>
+                        </li>
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 2</a>
+                        </li>
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 3</a>
+                        </li>
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 4</a>
+                        </li>
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 5</a>
+                        </li>
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 6</a>
+                        </li>
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 7</a>
+                        </li>
+                        <li class="head-nav__item-drop-item">
+                          <a class="head-nav__item-drop-link" href="#">Home 8</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="head-nav__item">
+                      <a class="head-nav__link" href="#">Shop
+                        <i class='bx bx-chevron-down'></i>
+                      </a>
+
+                      <div class="head-nav__link-drop-box d-flex align-items-center">
+                        <ul class="head-nav__link-drop">
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-title" href="#">Categories 1</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Vegatable</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Tomato</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Cabbage</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Juice</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Meat</a>
+                          </li>
+                        </ul>
+                        <ul class="head-nav__link-drop">
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-title" href="#">Categories 1</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Vegatable</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Tomato</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Cabbage</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Juice</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Meat</a>
+                          </li>
+                        </ul>
+                        <ul class="head-nav__link-drop">
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-title" href="#">Categories 1</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Vegatable</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Tomato</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Cabbage</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Juice</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Meat</a>
+                          </li>
+                        </ul>
+                        <ul class="head-nav__link-drop">
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-title" href="#">Categories 1</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Vegatable</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Tomato</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Cabbage</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Juice</a>
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <a class="head-nav__item-drop-link" href="#">Meat</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </li>
+
+                    <li class="head-nav__item">
+                      <a class="head-nav__link" href="#">Pages
+                        <i class='bx bx-chevron-down'></i>
+                      </a>
+
+                      <div class="head-nav__link-drop-box d-flex align-items-center">
+                        <ul class="head-nav__link-drop-img d-flex">
+                          <li class="head-nav__item-drop-item">
+                            <img class="head-nav__link-drop-shet-img" src="images/sheet.jpg" alt="img">
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <img class="head-nav__link-drop-shet-img" src="images/sheet.jpg" alt="img">
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <img class="head-nav__link-drop-shet-img" src="images/sheet.jpg" alt="img">
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <img class="head-nav__link-drop-shet-img" src="images/sheet.jpg" alt="img">
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <img class="head-nav__link-drop-shet-img" src="images/sheet.jpg" alt="img">
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <img class="head-nav__link-drop-shet-img" src="images/sheet.jpg" alt="img">
+                          </li>
+                          <li class="head-nav__item-drop-item">
+                            <img class="head-nav__link-drop-shet-img" src="images/sheet.jpg" alt="img">
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="head-nav__item">
+                      <a class="head-nav__link" href="#">Blog</a>
+                    </li>
+                    <li class="head-nav__item">
+                      <a class="head-nav__link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO PART  -->
+
+    <div class="site-hero">
+      <div class="site-hero__inner">
+        <div class="container">
+          <div class="site-hero__desc">
+            <a class="site-hero__link" href="index.html">Home
+              <i class='bx bx-chevron-right'></i>
+            </a>
+            <a class="site-hero__link" href="about.html">About us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <main class="main">
+
+
+    <!-- FQAS PART  -->
+
+    <section class="about">
+      <div class="about__inner">
+        <div class="container">
+          <div class="about__menus mb-5">
+            <h2 class="about__title">FAQs</h2>
+          </div>
+        </div>
+
+        <div class="about__content abo-con pt-5">
+          <div class="abo-con__inner">
+            <ul class="abo-con__list row align-items-center">
+              <li class="abo-con__item site-head col-12 col-md-6 col-lg-6 col-xl-2">
+                <div class="abo-con__tel-box site-head__tel-box w-auto d-flex">
+                  <div class="site-head-tel-icon">
+                    <i class='bx bx-headphone'></i>
+                  </div>
+
+                  <div class="site-head__tel-text">
+                    <p class="site-head__tel-tit">CALL US 24/7</p>
+                    <p class="site-head__tel-num">(1800)-88-66-991</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="abo-con__item site-head col-12 col-md-6 col-lg-6 col-xl-2">
+                <div class="abp-con__emal site-head__tel-box w-auto d-flex">
+                  <div class="site-head-tel-icon">
+                    <i class='bx bx-mail-send'></i>
+                  </div>
+
+                  <div class="site-head__tel-text">
+                    <p class="abo-con__mail-tit">EMAIL US</p>
+                    <a class="abo-con__mail" href="#">demo@demo.com</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="abo-con__item site-head col-12 col-md-6 col-lg-6 col-xl-2">
+                <ul class="abo-con__item-list d-flex">
+                  <li class="abo-con__item-item">
+                    <a class="abo-con__item-link" href="#">
+                      <i class='bx bxl-facebook'></i>
+                    </a>
+                  </li>
+                  <li class="abo-con__item-item">
+                    <a class="abo-con__item-link" href="#">
+                      <i class='bx bxl-twitter'></i>
+                    </a>
+                  </li>
+                  <li class="abo-con__item-item">
+                    <a class="abo-con__item-link" href="#">
+                      <i class='bx bxl-youtube'></i>
+                    </a>
+                  </li>
+                  <li class="abo-con__item-item">
+                    <a class="abo-con__item-link" href="#">
+                      <i class='bx bxl-instagram'></i>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="abo-con__item site-head col-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="abo-con___img-box">
+                  <img class="abo-con__img"
+                    src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_payment_image.png?v=1604630477"
+                    alt="logo-imgs">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__inner site-foot-inner">
+      <div class="footer__menus site-foot-menus">
+        <ul class="footer__list row">
+          <li class="footer__item col-sm-12 col-md-6 col-lg-3">
+            <div class="footer__item-box footer-logo foot-ite">
+              <a class="footer___logoo text-decoration-none" href="index.html">
+                <img class="head-menu__logo"
+                  src="https://demo73leotheme.b-cdn.net/prestashop/at_freshio/img/freshio-logo-1603358296.jpg"
+                  alt="logo">
+              </a>
+            </div>
+          </li>
+          <li class="footer__item col-sm-12 col-md-4 col-lg-3 pe-5">
+            <div class="footer__item-box foot-ite">
+              <h4 class="foot-ite__title">STORE LOCATION</h4>
+
+              <ul class="foot-ite__list">
+                <li class="foot-ite__item">
+                  <p class="foot-ite__link footer__itm-text">
+                    9066 Green Lake Drive Chevy <br>
+                    Chase, MD 20815</p>
+                </li>
+                <li class="foot-ite__item">
+                  <p class="foot-ite__link">
+                    <span class="foot-ite__link-sp">Monday - Saturday:</span><br>
+                    8:00 am - 4:00pm
+                  </p>
+                </li>
+                <li class="foot-ite__item">
+                  <p class="foot-ite__link">
+                    <span class="foot-ite__link-sp">Sunday:</span><br>
+                    9:00 am - 5:00pm
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="footer__item col-sm-12 col-md-4 col-lg-2">
+            <div class="footer__item-box foot-ite">
+              <h4 class="foot-ite__title">INFORMATION</h4>
+
+              <ul class="foot-ite__list">
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    About us</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Blog</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Check out</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Contact</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Service</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="footer__item col-sm-12 col-md-4 col-lg-2">
+            <div class="footer__item-box foot-ite">
+              <h4 class="foot-ite__title">MY ACCOUNT</h4>
+
+              <ul class="foot-ite__list">
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    My Account</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Contact</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Shopping cart</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Shop</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="footer__item col-sm-12 col-md-4 col-lg-2">
+            <div class="footer__item-box foot-ite">
+              <h4 class="foot-ite__title">CATEGORIES</h4>
+
+              <ul class="foot-ite__list">
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Fruits & Vegetables</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Dairy Products</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Package Foods</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Beverage</a>
+                </li>
+                <li class="foot-ite__item">
+                  <a class="foot-ite__link footer-links" href="#">
+                    Beverage</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer__boot-text">
+      <p class="footer__b-text">Copyright © 2021 <span style="color: #bac34e;">Freshio</span>. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+
+
+
+  <div class="btns-box__responsiv btn-res">
+    <ul class="btn-res__list d-flex col-12">
+      <li class="btn-res__item col-3">
+        <i class='bx bx-shopping-bag'></i>
+        <button class="btn-res__btn">Shop</button>
+      </li>
+      <li class="btn-res__item col-3">
+        <i class='bx bx-heart'></i>
+        <span class="head-icons-item-btn-zero btn-res-btn-zero">0</span>
+        <button class="btn-res__btn">wishlist</button>
+      </li>
+      <li class="btn-res__item col-3 head-icons__item" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight">
+        <i class='bx bx-user'></i>
+        <button class=" head-icons__item-btn btn-res__btn">Account</button>
+      </li>
+      <li class="btn-res__item col-3 d-flex flex-md-column-reverse" id="open-search-in">
+        <i class='bx bx-search'></i>
+        <button class="btn-res__btn">Search</button>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+        etc.
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+          data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <a class="site-top" href="#top">
+    <i class='bx bx-chevrons-up'></i>
+  </a>
+
+
+
+  <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
